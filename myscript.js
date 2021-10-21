@@ -14,11 +14,13 @@ let age = parseInt(prompt("quanti anni hai?"));
 console.log ("anni", age);
 
 // Prezzo biglietto pr km
-let priceTicket = (kmTratta * 0.21)
-console.log ("prezzo biglietto", priceTicket);
-
 let priceKm = 0.21;
 console.log ("prezzo x km", priceKm);
+
+let priceTicket = kmTratta * priceKm
+console.log ("prezzo biglietto", priceTicket);
+
+
 
 // sconti
 let discountUn18 = priceTicket * 0.8;
